@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://colinfrishberg.com/sitemap.xml
