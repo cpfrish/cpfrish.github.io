@@ -2,33 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI Product Lead @ Google · UC Berkeley MIDS
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I build AI products for people who have to make decisions with them.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm an AI Product Lead at Google, where I've spent the last five years building the sales platforms and reporting infrastructure our global Ads organization runs on. I'm currently focused on democratizing data analysis through natural language queries across our complex Business Intelligence suite.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In parallel I've just completed a Master's in Information & Data Science at UC Berkeley, focused on Generative AI and Causal Inference. That's been deliberate: I wanted to be able to build and rigorously evaluate the AI systems I've been shipping in industry, rather than take demo quality on faith. My recent work includes [Vantage AI](https://www.ischool.berkeley.edu/programs/mids/capstone/2026b-summer/vantage-ai), a production-grade lease analysis web and Android application built on a hybrid deterministic and LLM pipeline with retrieval-augmented generation and agentic loops, and a causal study using regression discontinuity in time to measure the impact of automated speed enforcement.
+
+My first four years were in enterprise software sales — CIAM at Gigya, UCaaS at Arkadin, IT research and advisory at Gartner. It's where I learned to hear what a user actually needs underneath what they're asking for. I went to Berkeley for the other half of the job: enough depth to spec an eval, read the results, and push back when a demo is outrunning the data.
+
+The short version: I've sold enterprise software, built it, and learned to measure it. I'm most useful where those overlap.
+
+Outside work: motorcycle racing, causal inference, and the political economy of everything.
