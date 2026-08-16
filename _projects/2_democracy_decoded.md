@@ -1,0 +1,25 @@
+---
+layout: page
+title: Democracy Decoded
+description: The 119th U.S. Congress by generation, party, and geography — 13 interactive visualizations
+img: assets/img/projects/democracy.png
+importance: 2
+category: ""
+---
+
+**The question.** Who actually represents us — by generation, party, and place — and how does that shape what Congress works on? Democracy Decoded is an end-to-end pipeline and visualization suite over the 119th U.S. Congress, built for UC Berkeley's Data Visualization course.
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/projects/democracy.png" title="Congressional generational analysis dashboard" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The generational dashboard: Baby Boomers and Gen X still dominate the chamber, the Silent Generation sponsors the most bills per member, and topic focus shifts visibly by generation.
+</div>
+
+**How it works.** Numbered Python pipeline scripts fetch member, bill, and vote data from the Congress.gov API (with caching and rate-limit courtesy), join it to GeoJSON congressional district boundaries, and emit 13 standalone interactive visualizations — Altair charts and D3 maps — including a district-level choropleth, a dual-chamber state map, a party-loyalty ranking, a bill tracker, and the generational dashboard above.
+
+**My role.** Data pipeline design and the generational/topic analyses, with the team: Banjot Saini, Jane Lai, and Sarah Ki.
+
+**Links.** [Repository](https://github.com/cpfrish/democracy-decoded) · [Interactive visualizations (in-repo)](https://github.com/cpfrish/democracy-decoded/tree/main/visualizations) — live hosted demos are coming as part of the repo's Pages release.
