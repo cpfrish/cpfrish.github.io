@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Income & Charitable Giving
+title: Income and Charitable Giving
 description: Are Americans with higher incomes more generous? An OLS study with robust inference
 img: assets/img/projects/income.png
 importance: 6
