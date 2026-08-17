@@ -49,5 +49,5 @@ nav_order: 4
     </div>
 </div>
 <div class="caption">
-    Left: where it started — the very first track day, New Jersey Motorsports Park, 2021. Right: New York Safety Track, a few thousand laps later.
+    Left: where it started — the very first track day, New Jersey Motorsports Park, 2021. Right: New York Safety Track, a few track days later with my first track bike (Yamaha R1).
 </div>
