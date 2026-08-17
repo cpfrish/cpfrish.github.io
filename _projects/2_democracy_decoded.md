@@ -24,7 +24,7 @@ category: ""
     </div>
 </div>
 <div class="caption">
-    The bill tracker: 11,634 bills of the 119th Congress by status and type — <a href="https://colinfrishberg.com/democracy-decoded/visualizations/congress_bill_tracker.html">explore it live</a>.
+    From the bill tracker: the 119th Congress's 11,634 bills by type — House bills dominate at 6,486, with an inline legend decoding every bill class from HR to SCONRES — <a href="https://colinfrishberg.com/democracy-decoded/visualizations/congress_bill_tracker.html">explore the full tracker live</a>.
 </div>
 
 **How it works.** Numbered Python pipeline scripts fetch member, bill, and vote data from the Congress.gov API (with caching and rate-limit courtesy), join it to GeoJSON congressional district boundaries, and emit 13 standalone interactive visualizations — Altair charts and D3 maps — including a district-level choropleth, a dual-chamber state map, a party-loyalty ranking, a bill tracker, and the generational dashboard above.
