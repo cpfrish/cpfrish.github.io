@@ -220,3 +220,26 @@ p.desc {
   border-top: 3px solid #fdb515;
   margin-top: -3px;
 }
+
+// California Gold hyperlinks — darkened for light-mode contrast (AA),
+// true #fdb515 on dark. Scoped to prose links; nav stays Berkeley Blue.
+:root {
+  --link-gold: #8f6400;
+  --link-gold-hover: #b8830a;
+}
+
+html[data-theme="dark"] {
+  --link-gold: #fdb515;
+  --link-gold-hover: #ffc94a;
+}
+
+main p a,
+main li a,
+main td a,
+main .caption a {
+  color: var(--link-gold);
+
+  &:hover {
+    color: var(--link-gold-hover);
+  }
+}
