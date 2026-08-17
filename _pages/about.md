@@ -29,4 +29,6 @@ My first four years were in enterprise software sales — CIAM at Gigya, UCaaS a
 
 The short version: I've sold enterprise software, built it, and learned to measure it. I'm most useful where those overlap.
 
-Outside work: motorcycle racing, causal inference, and the political economy of everything.
+Before all of it: an undergrad at the University of Michigan — Berkeley makes it two schools in blue and gold. Go Blue.
+
+Outside work: [motorcycle racing](/riding/), causal inference, and the political economy of everything.
