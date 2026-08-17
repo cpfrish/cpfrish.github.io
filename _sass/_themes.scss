@@ -233,10 +233,10 @@ html[data-theme="dark"] {
   --link-gold-hover: #ffc94a;
 }
 
-main p a,
-main li a,
-main td a,
-main .caption a {
+.post p a,
+.post li a,
+.post td a,
+.post .caption a {
   color: var(--link-gold);
 
   &:hover {
