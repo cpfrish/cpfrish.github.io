@@ -26,4 +26,4 @@ category: ""
 
 **Team.** Built with Evan Powell, Terra Jiang, Trenton Carlson, and Adam Valadez.
 
-**Links.** [Official capstone listing (UC Berkeley I School)](https://www.ischool.berkeley.edu/programs/mids/capstone/2026b-summer/vantage-ai) · [CA Code Downloader](/projects/7_ca_code_downloader/) — the statute-acquisition utility I built for the legal corpus. The application source is private.
+**Links.** [Official capstone listing (UC Berkeley I School)](https://www.ischool.berkeley.edu/programs/mids/capstone/2026b-summer/vantage-ai) · [CA Code Downloader](https://github.com/cpfrish/ca-code-downloader) — the statute-acquisition utility I built for the legal corpus. The application source is private.

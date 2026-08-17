@@ -24,4 +24,4 @@ category: ""
 
 **Solo project.**
 
-**Links.** Code release in progress — the cleaned repository is being published as part of this portfolio's rollout. The full evaluation report is available on request.
+**Links.** [Repository](https://github.com/cpfrish/rag-evaluation-pipeline) · [Full evaluation report (PDF)](https://github.com/cpfrish/rag-evaluation-pipeline/blob/main/final_report.pdf)

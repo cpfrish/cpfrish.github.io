@@ -22,4 +22,4 @@ category: ""
 
 **My role.** Data pipeline design and the generational/topic analyses, with the team: Banjot Saini, Jane Lai, and Sarah Ki.
 
-**Links.** [Repository](https://github.com/cpfrish/democracy-decoded) · [Interactive visualizations (in-repo)](https://github.com/cpfrish/democracy-decoded/tree/main/visualizations) — live hosted demos are coming as part of the repo's Pages release.
+**Links.** [Repository](https://github.com/cpfrish/democracy-decoded) · **Live demos:** [generational dashboard](https://colinfrishberg.com/democracy-decoded/visualizations/congress_generational_dashboard.html) · [district map](https://colinfrishberg.com/democracy-decoded/visualizations/congress_district_map.html) · [bill tracker](https://colinfrishberg.com/democracy-decoded/visualizations/congress_bill_tracker.html) · [all 13](https://github.com/cpfrish/democracy-decoded#findings--live-demos)

@@ -14,4 +14,4 @@ category: ""
 
 **Solo project.**
 
-**Links.** Code release in progress — being published as part of this portfolio's rollout. See it in context in the [Vantage AI case study](/projects/1_vantage_ai/).
+**Links.** [Repository](https://github.com/cpfrish/ca-code-downloader) · See it in context in the [Vantage AI case study](/projects/1_vantage_ai/).

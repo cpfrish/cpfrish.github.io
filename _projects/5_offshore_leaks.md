@@ -26,4 +26,4 @@ category: ""
 
 **Data note.** The ICIJ Offshore Leaks database is publicly available from ICIJ under the Open Database License; we analyze it and link to it rather than redistribute it.
 
-**Links.** Code release in progress — the cleaned repository (notebooks + slides) is being published as part of this portfolio's rollout.
+**Links.** [Repository](https://github.com/cpfrish/offshore-leaks-graph-analysis) — notebooks, the findings deck, and graph-algorithm results.
