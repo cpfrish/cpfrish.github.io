@@ -1,0 +1,40 @@
+// Local theme overrides — Berkeley identity palette.
+// Only the tokens/rules that differ from the gem defaults; CSS custom-property
+// cascade keeps everything else from al_folio_core.
+
+html {
+  --global-theme-color: #003262; // Berkeley Blue
+  --global-hover-color: #1f6bb5; // lighter Berkeley blue (gold fails contrast on light)
+  --global-bg-color: #f7f9fb; // cool paper, not stark white
+  --global-card-bg-color: #ffffff; // cards float on the tinted page
+  --global-footer-bg-color: #003262;
+  --global-footer-text-color: #e8edf3;
+  --global-footer-link-color: #fdb515;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #5b9bd5; // Berkeley blue lightened for dark surfaces
+  --global-hover-color: #fdb515; // California Gold pops on dark
+  --global-bg-color: #16181d; // blue-black
+  --global-card-bg-color: #1f232b;
+  --global-footer-bg-color: #101216;
+  --global-footer-text-color: #c9d1dc;
+  --global-footer-link-color: #fdb515;
+}
+
+// Bolded subtitle under the name, with a California Gold underline.
+.post-header .desc,
+.header-bar .desc,
+p.desc {
+  font-weight: 600;
+  color: var(--global-theme-color);
+  display: inline-block;
+  border-bottom: 3px solid #fdb515;
+  padding-bottom: 2px;
+}
+
+// Project cards: gold accent on hover instead of a plain shadow.
+.card.hoverable:hover {
+  border-top: 3px solid #fdb515;
+  margin-top: -3px;
+}
