@@ -20,7 +20,18 @@ category: ""
 
 **How it works.** The harness varies chunk size, query rewriting, reranking, and generator model (Cohere command-a vs. command-r vs. an optimized configuration), scoring each configuration per-persona with BERTScore (roberta-large embeddings), ROUGE, and faithfulness metrics — plus adversarial out-of-domain probes to catch confident nonsense.
 
-**Results.** A *minimal* stack won: no query rewriter, no reranker, small chunks, Cohere Command A — BERT-F1 of 0.876 (engineering persona) and 0.881 (marketing), faithfulness above 0.87 for both, at a projected serving cost under 100 USD/month versus 1,500+ USD/month for reserved GPU capacity. Two findings I'd carry into production: 128-token chunks score well in aggregate but truncate detail retrieval, and out-of-domain queries sail through with irrelevant context — the system needs a relevance gate before it can be trusted.
+**Results.** A *minimal* stack won: no query rewriter, no reranker, small chunks, Cohere Command A — BERT-F1 of 0.876 (engineering persona) and 0.881 (marketing), faithfulness above 0.87 for both, at a projected serving cost under 100 USD/month versus 1,500+ USD/month for reserved GPU capacity.
+
+<div class="row justify-content-center">
+    <div class="col-sm-12 mt-3 mb-3">
+        {% include figure.liquid path="assets/img/projects/full/rag_results.png" title="Configuration comparison" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The full comparison: eleven configurations screened on a 4-question subset (left, sorted by mean BERT-F1), then the three finalists benchmarked on all 75 questions (right) — the Cohere baseline wins both metrics for both personas.
+</div>
+
+Two findings I'd carry into production: 128-token chunks score well in aggregate but truncate detail retrieval, and out-of-domain queries sail through with irrelevant context — the system needs a relevance gate before it can be trusted.
 
 **Solo project.**
 
