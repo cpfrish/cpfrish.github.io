@@ -10,12 +10,21 @@ category: ""
 **The question.** Who actually represents us — by generation, party, and place — and how does that shape what Congress works on? Democracy Decoded is an end-to-end pipeline and visualization suite over the 119th U.S. Congress, built for UC Berkeley's Data Visualization course.
 
 <div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mb-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/democracy.png" title="Congressional generational analysis dashboard" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-11 mt-3 mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/projects/full/democracy_member_activity.png" title="Member legislative activity by birth year and generation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The generational dashboard: Baby Boomers and Gen X still dominate the chamber, the Silent Generation sponsors the most bills per member, and topic focus shifts visibly by generation.
+    Every member of the 119th Congress, plotted by birth year and bills sponsored, colored by generation — <a href="https://colinfrishberg.com/democracy-decoded/visualizations/member_activity_scatter_interactive.html">explore it live</a>.
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-11 mt-3 mb-3">
+        {% include figure.liquid path="assets/img/projects/full/democracy_bill_tracker.png" title="Congressional bills tracker" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The bill tracker: 11,634 bills of the 119th Congress by status and type — <a href="https://colinfrishberg.com/democracy-decoded/visualizations/congress_bill_tracker.html">explore it live</a>.
 </div>
 
 **How it works.** Numbered Python pipeline scripts fetch member, bill, and vote data from the Congress.gov API (with caching and rate-limit courtesy), join it to GeoJSON congressional district boundaries, and emit 13 standalone interactive visualizations — Altair charts and D3 maps — including a district-level choropleth, a dual-chamber state map, a party-loyalty ranking, a bill tracker, and the generational dashboard above.

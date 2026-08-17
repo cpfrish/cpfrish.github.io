@@ -11,7 +11,7 @@ category: ""
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mb-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/vantage.png" title="Vantage AI analyzing a demo lease" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/full/vantage_full.png" title="Vantage AI analyzing a demo lease" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

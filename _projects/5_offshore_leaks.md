@@ -11,7 +11,7 @@ category: ""
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mb-3">
-        {% include figure.liquid loading="eager" path="assets/img/projects/offshore.png" title="Louvain community detection on the Offshore Leaks graph" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/full/offshore_full.png" title="Louvain community detection on the Offshore Leaks graph" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
