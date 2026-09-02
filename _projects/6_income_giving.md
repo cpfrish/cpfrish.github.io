@@ -30,4 +30,4 @@ category: ""
 
 **Team.** With Fatema Alsaleh and WooJung Kim.
 
-**Links.** [Repository](https://github.com/cpfrish/income_and_charitable_giving_analysis) · [Final report (PDF)](https://github.com/cpfrish/income_and_charitable_giving_analysis/blob/main/reports/Lab2_Assignment_final.pdf)
+**Links.** [Repository](https://github.com/cpfrish/income_and_charitable_giving_analysis) · [Final report (PDF)](https://github.com/cpfrish/income_and_charitable_giving_analysis/blob/main/reports/Income_and_Charitable_Giving.pdf)
